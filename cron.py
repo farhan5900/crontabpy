@@ -14,7 +14,7 @@ def main():
     # check for all the pending jobs and schedule it to run
     for job in cron_tabs:
       job.run_pending()
-    time.sleep(1)
+    time.sleep(60)
 
 if __name__ == '__main__':
   main()
